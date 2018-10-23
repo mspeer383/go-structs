@@ -3,6 +3,17 @@
 learning go with tests
 https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/structs-methods-and-interfaces
 
+TDD growth in this lesson
+
+Table driven tests wrapped in T.run for more info
+
+Interfaces to allow parametric pollymorphism and make tests cleane
+
+Enjoyed the Refactoring of TDD  process 
+
+Added first method  to comply with an interface  implcit implementation is nice
+
+
 
 ## Getting Started
 
@@ -10,53 +21,25 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Golang version 1.11 or higher
 
+```go
+go --version
 ```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+```go
+go test -v
+```
 
 ### Break down into end to end tests
 
 Explain what these tests test and why
 
+```text
+Test Area mostly and one Perimeter test ( Robert foud a flaw )
 ```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
