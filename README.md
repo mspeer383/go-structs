@@ -1,6 +1,8 @@
 # Learning Go with Test - Structs homework due October 24, 2018
 
-One Paragraph of project description goes here
+learning go with tests
+https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/structs-methods-and-interfaces
+
 
 ## Getting Started
 
