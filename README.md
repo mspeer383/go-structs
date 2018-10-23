@@ -1,4 +1,4 @@
-# Project Title
+# Learning Go with Test - Structs homework due October 24, 2018
 
 One Paragraph of project description goes here
 
