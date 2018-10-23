@@ -25,6 +25,16 @@ func (c Circle) Area() float64 {
 	return math.Pi * (c.Radius * c.Radius)
 }
 
+type HalfCircle struct {
+	Radius float64
+}
+
+func (h HalfCircle) Area() float64 {
+	y:= (math.Pi/2) * (h.Radius * h.Radius)
+	r := math.Round(y*100/100)
+	return r
+}
+
 type Triangle struct {
 	Base   float64
 	Height float64
