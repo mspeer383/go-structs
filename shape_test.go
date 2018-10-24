@@ -38,3 +38,13 @@ func TestArea(t *testing.T) {
 	}
 
 }
+
+func TestArea2(t *testing.T) {
+	rectangle := Rectangle{12.0, 6.0}
+	got := Area(rectangle)
+	want := 72.00
+
+	if got != want {
+		t.Errorf("got %2f want %2f", got, want)
+	}
+}
