@@ -1,4 +1,6 @@
-package structs
+package shapes
+
+
 
 import (
 	"testing"
