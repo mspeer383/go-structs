@@ -6,7 +6,7 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/mspeer383/go-structs"
+	shapes "github.com/mspeer383/go-structs"
 )
 
 func main() {
@@ -17,18 +17,18 @@ func main() {
 	var argWidth float64
 	argWidth, _ = strconv.ParseFloat(os.Args[2], 64)
 
-	var rectangle structs.Rectangle
+	var rectangle shapes.Rectangle
 
 	//passed in
-	rectangle = structs.Rectangle{Height: argHeight, Width: argWidth}
+	rectangle = shapes.Rectangle{Height: argHeight, Width: argWidth}
 
-	fmt.Println("my Rectangle ", rectangle)
+	fmt.Println("my  Rectangle ", rectangle)
 	fmt.Println("area is ", rectangle.Area())
 
 	//static
-	rectangle = structs.Rectangle{Height: 40, Width: 25}
+	rectangle = shapes.Rectangle{Height: 40, Width: 25}
 
-	fmt.Println("my Rectangle ", rectangle)
+	fmt.Println("my internal static Rectangle ", rectangle)
 	fmt.Println("area is ", rectangle.Area())
 
 }
